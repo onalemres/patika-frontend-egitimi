@@ -1,0 +1,2 @@
+# patikahtmlbolumsonu
+Bölüm Sonu Çalışması
