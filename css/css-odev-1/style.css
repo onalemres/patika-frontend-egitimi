@@ -1,0 +1,115 @@
+/**************************/
+/* HEADER */
+/**************************/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 5rem;
+    padding: 0 4.8rem;
+}
+
+.logo {
+    height: 1rem;
+  }
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+.main-nav {
+    background-color: #fff;
+    margin-right: 20rem;
+}
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    font-size: 1rem;
+    transition: all 0.3s;
+  }
+  
+  .main-nav-link:hover,
+  .main-nav-link:active {
+    background-color: rgb(238, 231, 231);
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgb(196, 193, 193);
+  }
+  
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.section-tesla {
+    background-color: #ffffff;
+  }
+  
+  .tesla {
+    background-color: #fff;
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .tesla-text-box {
+      text-align: center;
+      line-height: 1.6;
+      padding: 1rem;
+  }
+
+  .heading-primary {
+      font-size: 4rem;
+      
+  }
+  
+  .tesla-description {
+    font-size: 2rem;
+    background: linear-gradient(0deg, rgb(150, 22, 209) 0%, rgba(14, 240, 153, 0.562) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .button-first {
+      width: 40%;
+      margin: auto;
+      padding: 1rem;
+      
+  }
+  .button {
+      position: relative;
+      color: #000;
+      background-color: #886fee;
+      font-size: 0.8rem;
+      line-height: 1.6;
+      border-radius: 50px;
+      outline: none;
+      text-decoration: none;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      text-transform: uppercase;
+      height: 3rem;
+      width: 15rem;
+      border: 1px solid rgba(100, 94, 94, 0.6);
+  }
+
+  .button:hover {
+      background-color: rgb(87, 14, 172);
+      transform: translateY(-1px);
+      box-shadow: 0 1rem 1rem rgb(105, 109, 106);
+
+  }

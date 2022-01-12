@@ -1,0 +1,50 @@
+body {
+    padding: 0 4rem;
+}
+.logo {
+    width: 351px;
+    height: 113px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.search {
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+.description {
+    margin: 0;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+}
+
+
+.first {
+    background-color: #7EE5DA;
+    width: 37%;
+}
+
+.first-p {
+    margin: 0;
+}
+
+.second {
+    background-color: #70CCC2;
+    font-size: 13px;
+}
+
+.third {
+    background-color: #62B3AA;
+    margin: 0;
+    font-size: 13px;
+}   
+
+.footer {
+    text-align: center;
+    font-size: 13px;
+}
