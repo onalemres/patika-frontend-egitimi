@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-color {
+    background-color: #fff;
+}
+
+.logo {
+    width: 200px;
+}
+
+
+.searchInput {
+    width: 27rem;
+    height: inherit;
+    font-size: 14px;
+    background-color: #f4f4f4;
+}
+
+.searchIcon {
+    height: 38px;
+    width: 32px;
+    min-height: 32px;
+    min-width: 32px;
+    background-color: #f4f4f4;
+}   
+
+.userIcon {
+    height: 60px;
+    width: 60px;
+}
+
+.basketColor {
+    background-color: #662883;
+    height: 2rem;
+    width: 4rem;
+    font-size: 1.4rem;
+    color: #fff;
+    text-align: center;
+    margin-top: .8rem;
+    padding-top: 4px;
+    border-radius: 20px;
+}
+
+.euro {
+    color: #fff;
+    background-color: #f58a30;
+    text-align: center;
+    border-radius: 17px;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-left: -25px;
+}
+
+.products {
+    float: left;
+}
+
+.cardManaw {
+    width: 15rem;
+    border-radius: 10px;
+}
+
+.cardImg {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+}
+
+.cardFontsize {
+    font-size: 15px;
+    color: #662883;
+    font-weight: bold;
+}
+
+.cardWeight {
+
+}
