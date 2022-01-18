@@ -1,0 +1,107 @@
+body {
+    background-color: #d0d0d0;
+}
+
+.main {
+    background-color: #1a1b21;
+    width: 52rem;
+    height: 40rem;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#clock {
+     font-size: 2rem;
+     background: -webkit-linear-gradient(66.26deg,#771f89 -5.22%,#834cef 46.12%,#636cea 99.41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 4rem;
+}
+
+.row {
+    background-color: #649734;
+    display: block;
+
+}
+
+.col-1 {
+    width: 100%;
+    background-color: #1a1b21;
+}
+
+.abc {
+    display: flex;
+    background-color: #1a1b21;
+    float: left;
+    margin-top: -2rem;
+    align-items: center;
+}
+
+.spanColor {
+    color: #40d763;
+    margin-right: .2rem;
+
+}
+
+.greeting {
+    font-size: 3rem;
+    font-weight: 200;
+    color: #ff0000;
+}
+
+.emre {
+    display: inline-flex;
+    margin: 3rem;
+}
+
+.card {
+    width: 18rem;
+    height: 15rem;
+    background: linear-gradient(66.26deg,#771f89 -5.22%,#834cef 46.12%,#636cea 99.41%);
+    padding: 32px;
+    border-radius: 15px;
+}
+
+.card-second {
+    margin-left: 1rem;
+    background: linear-gradient(52.78deg,#003edd 30.03%,#0b7bf8 89.59%);
+
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.card-header {
+    color: #f8fbff;
+}
+
+.card-title {
+    font-size: 1.4rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+
+.singleBtn {
+    font-size: 1.1rem;
+    color: #f8fbff;
+    background: transparent;
+    border: 1px solid hsl(266deg 63% 65%);
+    border-radius: 10px;
+    padding: 5px 15px;
+    cursor: pointer;   
+}
+
+.secondBtn {
+    font-size: 1.1rem;
+    color: #f8fbff;
+    background: transparent;
+    border: 1px solid rgb(119, 159, 233);
+    border-radius: 10px;
+    padding: 5px 15px;
+    cursor: pointer;   
+}
